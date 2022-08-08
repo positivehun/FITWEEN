@@ -4,3 +4,4 @@
 ### https://www.notion.so/151958/API-60600494d4054c15b7f2272935e55f6b
 ### 220804 Docker-Jenkins활용한 배포 
 ### Backend 통합테스트
+### Gradle
