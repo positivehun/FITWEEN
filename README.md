@@ -5,3 +5,4 @@
 ### 220804 Docker-Jenkins활용한 배포 
 ### Backend 통합테스트
 ### Gradle
+### 채팅 읽음 안읽음/읽지않은 메세지 구현
