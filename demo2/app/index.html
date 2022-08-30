@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="chart.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/theus/chart.css/v1.0.0/dist/chart.css" />
+		
+		<title>
+			인바디
+		</title>
+	</head>
+	<body>
+		<h1 style="color:#7B0C0C;">InBody</h1>
+		<form id="info-form">
+			<input type="text" id="name" placeholder="이름" />
+			<input type="number" id="age" placeholder="나이" />
+			<input type="number" id="height" placeholder="키" />
+			<input type="number" id="weight" placeholder="무게" />
+			<input type="number" id="muscle" placeholder="근육량" />
+			<input type="number" id="fat" placeholder="지방" />
+			<label for="male">남성</label><input type="radio" id="male" name="sex" value="0" checked />
+			<label for="female">여성</label>
+			<input type="radio" id="female" name="sex" value="1" />
+			<button id="formBtn">제출</button>
+		</form>
+		<h1>골격근·지방분석
+			<a style="font-size: 20px;">Muscle-Fat-Analysis</a>
+		</h1>
+		
+		<div class="table">
+			<div class="table-row">
+				<div></div>
+				<div>표준이하
+					<div>70</div>
+				</div>
+				<div>표준
+					<div>100</div>
+				</div>
+				
+				<div>표준이상
+					<div>170</div>
+				</div>
+			</div>
+			<div class="table-row graph">
+				<div>체중
+					<div style="font-size: 10px;">Weight</div>
+				</div>
+				<div id="weight-bar" class="bar">
+					<div class="charts__chart" style="width: 0%"></div>
+					<div id = "weight-value"></div>
+					
+				</div>
+				
+				
+			</div>
+			<div class="table-row graph">
+				<div>골격근량
+					<div style="font-size: 10px;">Skeleton Muscle Mass</div>
+				</div>
+				<div id="muscle-bar" class="bar">
+					<div class="charts__chart" style="width: 0%"></div>
+					<div id="muscle-value"></div>
+				</div>
+			</div>
+			<div class="table-row graph">
+				<div>체지방량
+					<div style="font-size: 10px;">Weight</div>
+				</div>
+				<div id="fat-bar" class="bar">
+					<div class="charts__chart" style="width: 0%"></div>
+					<div id="fat-value"></div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script src="app.js"></script>
+</html>
