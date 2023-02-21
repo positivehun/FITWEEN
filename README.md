@@ -101,11 +101,6 @@
 <table>
   <tr>
       <td align="center"><a href="https://github.com/positivehun/"><img src="https://avatars.githubusercontent.com/u/46879750?v=4" width="100px;" alt=""/><br /><sub><b>김지헌<br>Back-end,팀장</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/positivehun/"><img src="https://avatars.githubusercontent.com/u/46879750?v=4" width="100px;" alt=""/><br /><sub><b>김지헌<br>Back-end,팀장</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/positivehun/"><img src="https://avatars.githubusercontent.com/u/46879750?v=4" width="100px;" alt=""/><br /><sub><b>김지헌<br>Back-end,팀장</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/positivehun/"><img src="https://avatars.githubusercontent.com/u/46879750?v=4" width="100px;" alt=""/><br /><sub><b>김지헌<br>Back-end,팀장</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/positivehun/"><img src="https://avatars.githubusercontent.com/u/46879750?v=4" width="100px;" alt=""/><br /><sub><b>김지헌<br>Back-end,팀장</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/positivehun/"><img src="https://avatars.githubusercontent.com/u/46879750?v=4" width="100px;" alt=""/><br /><sub><b>김지헌<br>Back-end,팀장</b></sub></a><br /></td>
       
   </tr>
 </table>
